@@ -730,6 +730,10 @@ h6,
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
   color: #41a85f!important;
 }
+#header3-h .mbr-section-title,
+#header3-h .mbr-section-subtitle {
+  text-align: center;
+}
 #extCountdown2-c .mbr-section-title {
   font-size: 46px;
 }

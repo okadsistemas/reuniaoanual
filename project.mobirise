@@ -25,17 +25,18 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.3",
     "siteFonts": [],
-    "uniqCompNum": 14,
-    "versionPublish": "4.9.3"
+    "uniqCompNum": 18,
+    "versionPublish": "4.9.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Reunião Anual da OK! Ad 2019",
         "meta_descr": "",
         "header_custom": "",
-        "footer_custom": "",
+        "footer_custom": "<div class=\"modal fade inscricao-modal\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myLargeModalLabel\" aria-hidden=\"true\">\n\t<div class=\"modal-dialog modal-lg\">\n\t\t<div class=\"modal-content\">\n\t\t\t<div class=\"modal-header\">\n\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\n\t\t\t</div>\n\t\t\t<div class=\"modal-body\">\n\t\t\t\t<iframe src=\"https://docs.google.com/forms/d/e/1FAIpQLSeT6tbAuYwIln16EST0wiiCQdwbDQ0310cJQtec6v-sE5fEjA/viewform?embedded=true\" width=\"100%\" height=\"1260\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>",
         "html_before": ""
       },
       "components": [
@@ -54,7 +55,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">INÍCIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">PALESTRANTES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">QUANDO?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">ONDE?</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">OKAD.COM.BR</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">INSCREVER-SE</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">INÍCIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extFeatures9-a\">PALESTRANTES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extCountdown2-c\">QUANDO?</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#extForm4-d\">ONDE?</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://www.okad.com.br/\" target=\"_blank\">OKAD.COM.BR</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"javascript://\" data-toggle=\"modal\" data-target=\".inscricao-modal\">INSCREVER-SE MODAL</a></li>",
           "_tags": [
             "Layout"
           ],
@@ -118,11 +119,11 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
+              "link": "https://reuniaoanual.okad.com.br/",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">REUNIÃO ANUAL 2019</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://www.okad.com.br/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">REUNIÃO ANUAL 2019</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-0"
         },
@@ -165,13 +166,140 @@
           "title": "REUNIÃO ANUAL",
           "text": "Quem disse que é só trabalhar, trabalhar e trabalhar?",
           "text2": "<label class=\"startPreset\" for=\"modal\">Assista ao video</label>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">INSCREVA-SE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://www.okad.com.br/\" data-toolbar=\"-mbrBtnMove\">INSCREVA-SE</a>",
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extesões"
           ],
           "_name": "extHeader5",
           "_anchor": "extHeader5-5"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "PALESTRANTES",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-h"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": false,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jhon-freitas-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/jhon-freitas-600x600.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Jonathas Freitas",
+          "subtitle1": "📈 CEO @gerenciagram",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Jonathas Freitas",
+          "subtitle2": "📈 CEO @gerenciagram",
+          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://youtu.be/3A8CzmIFyvc\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>APRESENTAÇÃO</a> <a data-app-btn=\"true\" href=\"https://www.instagram.com/jhon_freitas/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTA</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://youtu.be/3A8CzmIFyvc\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>APRESENAÇÃO</a> <a data-app-btn=\"true\" href=\"https://www.instagram.com/jhon_freitas/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTA</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Layout"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-e"
         },
         {
           "_params": {
@@ -204,370 +332,6 @@
               "font-size": "46px"
             }
           }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showSubtitle": true,
-            "showImages": true,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showIcons": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": "2",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face5.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/face1.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/face6.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/face2.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/face3.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@-blocks/components/_images/face4.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title": "OUR TEAM",
-          "subtitle": "This theme is based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework.",
-          "title1": "William Smith",
-          "subtitle1": "Programmer",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Emma Jones",
-          "subtitle2": "SEO",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Michael Taylor",
-          "subtitle3": "Manager",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Emily Brown",
-          "subtitle4": "Reception",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "James Evans",
-          "subtitle5": "Sales",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Daniel Walker",
-          "subtitle6": "Founder",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "media1_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media1_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media2_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media3_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media4_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media5_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "dribbble",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "lastfm",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "skype",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "media6_4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-extFeatures7",
-              "name": "linkedin",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#000",
-              "family": "socicon"
-            }
-          },
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "extFeatures9",
-          "_anchor": "extFeatures9-a"
         },
         {
           "_params": {
