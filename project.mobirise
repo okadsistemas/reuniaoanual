@@ -203,7 +203,7 @@
             "showButtons": true,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "columns": "2",
+            "columns": "3",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -241,10 +241,13 @@
           },
           "media3": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "src": "@PROJECT_PATH@/assets/images/william-silva-320x320.jpg",
               "class": "card-img-top",
               "width": 600,
-              "active": true
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media4": {
@@ -277,8 +280,8 @@
           "title2": "Diego de Souza\n",
           "subtitle2": "Leader Comercial\n<div>Mestrando em Auditoria e Gestão Empresarial\n</div><div>👨‍🏫 @uniasselvioficial\n</div><div>CEO@redegess\n</div><div>Especialista em Recuperação/Crescimento Empresarial</div>",
           "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "title3": "William Silva\n",
+          "subtitle3": "👨🏽‍🏫¦Professor\r<div>👨🏽‍💻¦Gerente de Marketing do Gerenciagram\r</div><div>🙋🏾‍♂️¦ Nerd</div>",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
           "title4": "Unlimited Sites",
           "subtitle4": "Mobirise gives you the freedom to develop",
@@ -291,7 +294,7 @@
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button1": "<a data-app-btn=\"true\" href=\"https://youtu.be/3A8CzmIFyvc\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>APRESENTAÇÃO</a> <a data-app-btn=\"true\" href=\"https://www.instagram.com/jhon_freitas/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTA</a>",
           "button2": "<a data-app-btn=\"true\" href=\"https://www.youtube.com/watch?v=-ylus_QZvX8&amp;feature=youtu.be\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>APRESENAÇÃO</a> <a data-app-btn=\"true\" href=\"https://www.instagram.com/diegosouza.br/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTA</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://youtu.be/Pm4EBBid9TA\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbrib-video mbr-iconfont mbr-iconfont-btn\"></span>APRESENTAÇÃO</a> <a data-app-btn=\"true\" href=\"https://www.instagram.com/williamsilva88/\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\"></span>INSTA</a>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
